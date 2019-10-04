@@ -1,0 +1,2 @@
+for scaffold from Db
+dotnet ef dbcontext scaffold "Data Source=DESKTOP-GU88C36;Initial Catalog=Ayaty;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer  -p Ayaty.Context -s Ayaty.Context -c AyatyContext  -o Models -f --no-build
